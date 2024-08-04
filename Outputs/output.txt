@@ -1,0 +1,145 @@
+Initializing the Data Extractor
+Initializing the Tag Generator
+Initializing the Tag Scorer
+
+
+
+Processing IMDb ID: tt15398776
+Extracting movie data
+Getting data from TMDb
+Data Extracted from TMDb successfully!
+Getting data from IMDb
+Data Extracted from IMDb successfully!
+Getting data from Wikipedia
+Data Extracted from Wikipedia successfully!
+Getting data from OMDb
+Data Extracted from OMDb successfully!
+Movie data extraction complete!
+
+
+Generating and Cleaning tags based on the movie details extracted
+Tags Generated and Cleaned Successfully!
+
+
+Scoring the tags generated
+The tags have been scored!
+
+
+
+
+
+
+
+
+Processing IMDb ID: tt0816692
+Extracting movie data
+Getting data from TMDb
+Data Extracted from TMDb successfully!
+Getting data from IMDb
+Data Extracted from IMDb successfully!
+Getting data from Wikipedia
+Data Extracted from Wikipedia successfully!
+Getting data from OMDb
+Data Extracted from OMDb successfully!
+Movie data extraction complete!
+
+
+Generating and Cleaning tags based on the movie details extracted
+Tags Generated and Cleaned Successfully!                                                                                                                                                     
+
+
+Scoring the tags generated
+The tags have been scored!                                                                                                                                                                   
+
+
+
+
+
+
+
+
+Processing IMDb ID: tt26047818
+Extracting movie data
+Getting data from TMDb
+Data Extracted from TMDb successfully!
+Getting data from IMDb
+Data Extracted from IMDb successfully!
+Getting data from Wikipedia
+Data Extracted from Wikipedia successfully!
+Getting data from OMDb
+Data Extracted from OMDb successfully!
+Movie data extraction complete!
+
+
+Generating and Cleaning tags based on the movie details extracted
+Tags Generated and Cleaned Successfully!                                                                                                                                                     
+
+
+Scoring the tags generated
+The tags have been scored!                                                                                                                                                                   
+
+
+
+
+
+
+
+
+Processing IMDb ID: tt9466114
+Extracting movie data
+Getting data from TMDb
+Data Extracted from TMDb successfully!
+Getting data from IMDb
+Getting data from Wikipedia
+Data Extracted from Wikipedia successfully!
+Getting data from OMDb
+Data Extracted from OMDb successfully!
+Movie data extraction complete!
+
+
+Generating and Cleaning tags based on the movie details extracted
+Tags Generated and Cleaned Successfully!                                                                                                                                                     
+
+
+Scoring the tags generated
+The tags have been scored!                                                                                                                                                                   
+
+
+
+
+
+
+
+
+Processing IMDb ID: tt15671028
+Extracting movie data
+Getting data from TMDb
+Data Extracted from TMDb successfully!
+Getting data from IMDb
+Data Extracted from IMDb successfully!
+Getting data from Wikipedia
+Data Extracted from Wikipedia successfully!
+Getting data from OMDb
+Data Extracted from OMDb successfully!
+Movie data extraction complete!
+
+
+Generating and Cleaning tags based on the movie details extracted
+Tags Generated and Cleaned Successfully!                                                                                                                                                     
+
+
+Scoring the tags generated
+The tags have been scored!                                                                                                                                                                   
+
+
+
+
+
+      IMDb ID             Title  ...                                               tags                                         Tag Scores
+0  tt15398776       Oppenheimer  ...  Oppenheimer, Christopher Nolan, Cillian Murphy...  Oppenheimer:10, Christopher Nolan:10, Cillian ...
+1   tt0816692      Interstellar  ...  Interstellar, Science Fiction, Adventure, Dram...  Interstellar:10, Science Fiction:10, Adventure...
+2  tt26047818    Anyone But You  ...  Romantic Comedy, Destination Wedding, Fake Dat...  Romantic Comedy:10, Destination Wedding:10, Fa...
+3   tt9466114   The Idea of You  ...  The Idea of You, Romance, Drama, Romantic Come...  The Idea of You:10, Romance:10, Drama:10, Roma...
+4  tt15671028  No Hard Feelings  ...  Jennifer Lawrence, Andrew Barth Feldman, Laura...  Jennifer Lawrence: 10, Andrew Barth Feldman: 1...
+
+[5 rows x 12 columns]
