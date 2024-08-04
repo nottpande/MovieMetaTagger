@@ -1,5 +1,5 @@
 <h1> MovieMetaTagger (Natural Language Processing Project) </h1>
-        <p><strong>Overview:</strong> This is a NLP project, where we try to generate tags for a given movie,, after extracting details about the movvie using its IMDb ID <br>
+        <p><strong>Overview:</strong> This is a NLP project, where we try to generate tags for a given movie,, after extracting details about the movvie using the IMDb ID of the movie. <br>
         The project uses BeautifulSoup for web--scraping and uses LangChain to manage the interaction with the OpenAI API for generating and cleaning tags.</p>
 <h5> Approach for the Project</h5>
 <p> For this project, we made three major classes: </p>
@@ -52,5 +52,7 @@ The class also uses LangChain to manage the interaction with the OpenAI API for 
 - tags_scoring_template: This is the prompt template, that is used for scoring the tags.
 <h6> Keep in mind, that the scores of the tags will in general be pretty high, as the previous class has made sure only the 'relevant' tags of the movies will remain in the tags.
 Hence, as the tags will seem pretty relevant based on the movie details, therefore the scores will automatically be pretty high.</h6>
+<hr>
 
+The final outputs achieved after running the files, have been uploaded in the Outputs Folder.
 
