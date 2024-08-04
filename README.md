@@ -6,7 +6,7 @@
 
 <br>
   <li> <b> DataExtractor Class </b> </li>
-  <li> This class is used to extract the data about the movie, using the IMDb ID of the movie, during the initialization of an object of this class, there are two things required:<br>
+  This class is used to extract the data about the movie, using the IMDb ID of the movie, during the initialization of an object of this class, there are two things required:<br>
         1. The TMDb API key
         2. The OMDb API key
   Once the object is initialized for the Class, we will then use the <b><i>extract_data</i></b> function of this class, to get the details of the movie, using the IMDb ID.<br>
@@ -16,11 +16,11 @@
   The class extracts data from multiple sources:<br>
   - IMDb: Plot synopsis and basic information.<br>
   - TMDb: Movie summary, genres, cast, and keywords.<br>
-  - OMDb: Plot summary.<br>>
-  - Wikipedia: Detailed plot summary using Wikidata. </li>
+  - OMDb: Plot summary.<br>
+  - Wikipedia: Detailed plot summary using Wikidata. 
 <hr>
 <li> <b> TagGenerator Class </b> </li>
-  <li> This class is used to generate the tags for the movie, based on the details that were extracted by the previous class. There are two things that, this class essentially does:<br>
+This class is used to generate the tags for the movie, based on the details that were extracted by the previous class. There are two things that, this class essentially does:<br>
         1. It generates tags based on the movie details extracted.
         2. It then cleans the generated tags, i.e., it removes repeated tags, removes irrelevant tags etc.
 
@@ -35,10 +35,10 @@ The function will return a list containing the tags for the movie. <br>
 The class uses LangChain to manage the interaction with the OpenAI API for generating and cleaning tags.<br>
 
 - tags_generator_template: This is the prompt template, that is used for generating the tags.
-- tags_cleaner_template: This is the prompt template, that is used for cleaning the generated tags. </li>
+- tags_cleaner_template: This is the prompt template, that is used for cleaning the generated tags. 
 <hr>
 <li> <b> TagScorer Class </b> </li>
-  <li> This class is used to score the tags for the movie, based on based on their relevance to the movie details.<br>
+   This class is used to score the tags for the movie, based on based on their relevance to the movie details.<br>
         During the initialization of an object of this class, there is only one thing required:<br>
         1. The API key for OpenAI <br>
         This time, I did not add the model name and the temperature, because I assumed it will be the same as for the previous class.<br>
@@ -49,8 +49,8 @@ Once the object is initialized for the Class, we will then use the <b><i>score_t
 The function will return a list containing the scored tags for the movie. <br>
 The class also uses LangChain to manage the interaction with the OpenAI API for scoring the tags.<br>
 
-- tags_scoring_template: This is the prompt template, that is used for scoring the tags. </li>
-<h6> Keep in mind, that the scores of the tags will in general be pretty high, as the previous class has made sure only the 'relevant' tags of the movies will remain in the tags. <br>
+- tags_scoring_template: This is the prompt template, that is used for scoring the tags.
+<h6> Keep in mind, that the scores of the tags will in general be pretty high, as the previous class has made sure only the 'relevant' tags of the movies will remain in the tags.
 Hence, as the tags will seem pretty relevant based on the movie details, therefore the scores will automatically be pretty high.</h6>
 
 
